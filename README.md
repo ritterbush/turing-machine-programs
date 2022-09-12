@@ -35,7 +35,7 @@ Relatively simple, this Turing program tells the cart (in state 1, which referen
 
 # Busy Beavers
 
-Busy beavers are those Turing programs that are run on a track of no symbols, and end with the greatest amount of symbols (of '1's) as possible, given some maximum number of lines (equivalently, given a maximum number of states a cart can be in given a program). This site keeps track of current winners of [known Busy Beavers] (https://webusers.imj-prg.fr/~pascal.michel/bbc.html).
+Busy beavers are those Turing programs that are run on a track of no symbols, and end with the greatest amount of symbols (of '1's) as possible, given some maximum number of lines (equivalently, given a maximum number of states a cart can be in given a program). This site keeps track of current winners of [https://webusers.imj-prg.fr/~pascal.michel/bbc.html] (known Busy Beavers).
 
 The goal for this repo would be to have "busy beaver" programs relative to the function the program is made to implement. That is, the most efficient add, subract, multiply, divide, get-element-i-from-list, ...etc. functions. Here, *most efficient* just means done in the fewest amount of lines.
 
@@ -44,17 +44,17 @@ To explain how Turing machines can implement functions at all, consider a cart o
 For example, the track (with the cart's position pointed to by '...^...'):
 
 ...000111011000...\
-......^...........
+........^...........
 
 Means that the function implemented by Turing program has the input arguments 3, 2. If the Turing program is one that implements multiplication, then the cart must halt at the first block of the result which would be 6, or:
 
 ...000111111000...\
-......^...........
+........^...........
 
 What about a 0 argument? For this, use strings of no-symbols (or '0's) relative to the cart's postion:
 
 ...000011000000...\
-......^...........
+..........^...........
 
 The above has arguments 0, 2, assuming a binary function, and result of a multiplication Turing program will just be a blank track.
 
