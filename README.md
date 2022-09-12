@@ -4,9 +4,9 @@
 
 These programs follow the same form followed by my Turing machine implementations, linked above. Namely:
 
-'L' signifies erase the symbol, and go left.
-'M' signifies write the symbol, and go left.
-'R' signifies erase the symbol, and go right.
+'L' signifies erase the symbol, and go left.\
+'M' signifies write the symbol, and go left.\
+'R' signifies erase the symbol, and go right.\
 'S' signifies write the symbol, and go right.
 
 Cmd0 Cmd1 NextState0 NextState1\
