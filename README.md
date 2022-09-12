@@ -37,7 +37,7 @@ Relatively simple, this Turing program tells the cart (in state 1, which referen
 
 # Busy Beavers
 
-Busy beavers are those Turing programs that are run on a track of no symbols, and end with the greatest amount of symbols (of '1's) as possible, given some maximum number of lines (equivalently, given a maximum number of states a cart can be in given a program). This site keeps track of current winners of [https://webusers.imj-prg.fr/~pascal.michel/bbc.html] (known Busy Beavers).
+Busy beavers are those Turing programs that are run on a track of no symbols, and end with the greatest amount of symbols (of '1's) as possible, given some maximum number of lines (equivalently, given a maximum number of states a cart can be in given a program). This site keeps track of current winners of [https://webusers.imj-prg.fr/~pascal.michel/bbc.html](known Busy Beavers).
 
 The goal for this repo would be to have "busy beaver" programs relative to the function the program is made to implement. That is, the most efficient add, subract, multiply, divide, get-element-i-from-list, ...etc. functions. Here, *most efficient* just means done in the fewest amount of lines.
 
