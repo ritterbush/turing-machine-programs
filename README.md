@@ -54,7 +54,7 @@ Means that the function implemented by Turing program has the input arguments 3,
 What about a 0 argument? For this, use strings of no-symbols (or '0's) relative to the cart's postion:
 
 ...000011000000...\
-...........^....................
+..........^....................
 
 The above has arguments 0, 2, assuming a binary function, and result of a multiplication Turing program will just be a blank track.
 
