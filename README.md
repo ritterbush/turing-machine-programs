@@ -6,10 +6,10 @@ These programs follow the same form as my Turing machine implementations, linked
 
 There are four commands:
 
-'L' signifies erase the symbol, and go left.\
-'M' signifies write the symbol, and go left.\
-'R' signifies erase the symbol, and go right.\
-'S' signifies write the symbol, and go right.
+* 'L' signifies erase the symbol, and go left.
+* 'M' signifies write the symbol, and go left.
+* 'R' signifies erase the symbol, and go right.
+* 'S' signifies write the symbol, and go right.
 
 A Turing program has the following form:
 
@@ -21,10 +21,10 @@ A Turing program has the following form:
 Where
 
 
-**Cmd0** stands for the command to run given that the cart is not at a symbol (is at a '0'),\
-**Cmd1** stands for the command to run given that the cart is at a symbol (is at a '1'),\
-**NextState0** is the next state the cart will be in given that the cart is not at a symbol (is at a '0'),\
-**NextState1** is the next state the cart will be in given that the cart is not at a symbol (is at a '1'),
+* **Cmd0** stands for the command to run given that the cart is not at a symbol (is at a '0'),
+* **Cmd1** stands for the command to run given that the cart is at a symbol (is at a '1'),
+* **NextState0** is the next state the cart will be in given that the cart is not at a symbol (is at a '0'),
+* **NextState1** is the next state the cart will be in given that the cart is not at a symbol (is at a '1'),
 
 Which line to run is determined by the state number of the cart. Lines are finite (in theory as well as, of course, in practice).
 
