@@ -37,27 +37,27 @@ Relatively simple, this Turing program tells the cart (in state 1, which referen
 
 # Busy Beavers
 
-Busy beavers are those Turing programs that are run on a track of no symbols, and end with the greatest amount of symbols (of '1's) as possible, given some maximum number of lines (equivalently, given a maximum number of states a cart can be in given a program). This site keeps track of current winners of [known Busy Beavers](https://webusers.imj-prg.fr/~pascal.michel/bbc.html).
+Busy beavers are those Turing programs that are run on a track of no symbols (of all ***0***'s), and end with the greatest amount of symbols (of ***1***s) as possible, given some maximum number of lines (equivalently, given a maximum number of states a cart can be in given a program). This site keeps track of current winners of [known Busy Beavers](https://webusers.imj-prg.fr/~pascal.michel/bbc.html).
 
 The goal for this repo would be to have "busy beaver" programs relative to the function the program is made to implement. That is, the most efficient add, subract, multiply, divide, get-element-i-from-list, ...etc. functions. Here, *most efficient* just means done in the fewest amount of lines.
 
-To explain how Turing machines can implement functions at all, consider a cart on a track with no '1' symbols before it, when considered as ordered from left to right. Number values for functions are understood to be unbroken strings of '1's, if any, starting from the cart's position. Any breaks between '1's signify new numbers.
+To explain how Turing machines can implement functions at all, consider a cart on a track with no ***1*** symbols before it, when considered as ordered from left to right. Number values for functions are understood to be unbroken strings of ***1***'s, if any, starting from the cart's position. Any breaks between ***1***'s signify new numbers.
 
 For example, the track (with the cart's position pointed to by '...^...'):
 
 ...000111011000...\
 ..........^...................
 
-Means that the function implemented by the Turing program has the input arguments 3, 2. If the Turing program is one that implements multiplication, then the cart must halt at the first block of the result 6, or:
+Means that the function implemented by the Turing program has the input arguments `3, 2`. If the Turing program is one that implements multiplication, then the cart must halt at the first block of the result `6`, or:
 
 ...000111111000...\
 ..........^..................
 
-What about a 0 argument? For this, use strings of no-symbols (or '0's) relative to the cart's postion:
+What about a `0` argument? For this, use strings of no-symbols (or ***0***'s) relative to the cart's postion:
 
 ...000011000000...\
 ..........^....................
 
-The above has arguments 0, 2, assuming a binary function, and the result of a multiplication Turing program will just be a blank track.
+The above has arguments `0, 2`, assuming a binary function, and the result of a multiplication Turing program will just be a blank track.
 
 There are a few more nuances to cover.
