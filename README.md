@@ -30,3 +30,30 @@ L M 2 2\
 S R 0 0
 
 Relatively simple, this Turing program tells the cart (in state 1, which references line 1) to erase the symbol below it and go left, if it is has no symbol below it (so just go left, since there's no symbol to erase), or else put a symbol below it and go left, if it is has a symbol below it (so just go left, since there's already a symbol below it), and go to the next state, which references line 2. At line 2, the cart is to put a symbol below it and go right, if it is has no symbol below it, or else erase the symbol below it and go right, if it is has a symbol below it, and go to the next state. Since the next state is 0, the cart will halt and finish executing the program.
+
+# Busy Beavers
+
+Busy beavers are those Turing programs that halt and place the greatest amount of symbols (of '1's) once halted as possible, given a maximum number of lines a Turing program can have (equivalently, given a maximum number of states a cart can be in given a program). This site keeps track of current winners of [known Busy Beavers] (https://webusers.imj-prg.fr/~pascal.michel/bbc.html).
+
+The goal for this repo would be to have "busy beaver" programs relative to the function the program is made to implement. That is, the most efficient add, subract, multiply, divide, get-element-i-from-list, ...etc. functions. Here, *most efficient* just means done in the fewest amount of lines.
+
+To explain how Turing machines can implement functions at all, consider a cart on a track with no '1' symbols before it, when considered as ordered from left to right. Number values for functions are understood to be unbroken strings of '1's, if any, starting from the cart's position. Any breaks between '1's signify new numbers.
+
+For example, the track (with the cart's position pointed to by '...^...'):
+
+...000111011000...
+......^...........
+
+Means that the function implemented by Turing program has the input arguments 3, 2. If the Turing program is one that implements multiplication, then the cart must halt at the first block of the result which would be 6, or:
+
+...000111111000...
+......^...........
+
+What about a 0 argument? For this, use strings of no-symbols (or '0's) relative to the cart's postion:
+
+...000011000...
+......^........
+
+The above has arguments 0, 2, assuming a binary function, and result of a multiplication Turing program will just be a blank track.
+
+There are a few more nuances to cover.
