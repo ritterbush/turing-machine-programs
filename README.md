@@ -9,6 +9,8 @@ These programs follow the same form followed by my Turing machine implementation
 'R' signifies erase the symbol, and go right.\
 'S' signifies write the symbol, and go right.
 
+A Turing program has the following form:
+
 Cmd0 Cmd1 NextState0 NextState1\
 Cmd0 Cmd1 NextState0 NextState1\
 Cmd0 Cmd1 NextState0 NextState1\
