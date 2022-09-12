@@ -58,6 +58,6 @@ What about a 0 argument? For this, use strings of no-symbols (or '0's) relative 
 ...000011000000...\
 ..........^....................
 
-The above has arguments 0, 2, assuming a binary function, and result of a multiplication Turing program will just be a blank track.
+The above has arguments 0, 2, assuming a binary function, and the result of a multiplication Turing program will just be a blank track.
 
 There are a few more nuances to cover.
