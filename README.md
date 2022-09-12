@@ -2,7 +2,9 @@
 
 ### See [https://github.com/ritterbush/turing-machines](https://github.com/ritterbush/turing-machines) for a primer on Turing machines.
 
-These programs follow the same form as my Turing machine implementations, linked above. Namely, there are four commands:
+These programs follow the same form as my Turing machine implementations, linked above. In sum: 
+
+There are four commands:
 
 'L' signifies erase the symbol, and go left.\
 'M' signifies write the symbol, and go left.\
