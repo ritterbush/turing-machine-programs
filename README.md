@@ -46,7 +46,7 @@ To explain how Turing machines can implement functions at all, consider a cart o
 For example, the track (with the cart's position pointed to by '...^...'):
 
 ...000111011000...\
-........^.....................
+..........^...................
 
 Means that the function implemented by the Turing program has the input arguments 3, 2. If the Turing program is one that implements multiplication, then the cart must halt at the first block of the result which would be 6, or:
 
