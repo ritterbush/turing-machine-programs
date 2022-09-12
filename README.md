@@ -2,7 +2,7 @@
 
 ### See [https://github.com/ritterbush/turing-machines](https://github.com/ritterbush/turing-machines) for a primer on Turing machines.
 
-These programs follow the same form followed by my Turing machine implementations, linked above. Namely:
+These programs follow the same form as my Turing machine implementations, linked above. Namely:
 
 'L' signifies erase the symbol, and go left.\
 'M' signifies write the symbol, and go left.\
