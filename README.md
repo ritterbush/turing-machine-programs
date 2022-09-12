@@ -7,11 +7,8 @@ These programs follow the same form as my Turing machine implementations, linked
 There are four commands:
 
 'L' signifies erase the symbol, and go left.
-
 'M' signifies write the symbol, and go left.
-
 'R' signifies erase the symbol, and go right.
-
 'S' signifies write the symbol, and go right.
 
 A Turing program has the following form:
