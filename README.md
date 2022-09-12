@@ -1,6 +1,6 @@
 # Turing machine programs
 
-## See [https://github.com/ritterbush/turing-machines](https://github.com/ritterbush/turing-machines) for a primer on Turing machines.
+### See [https://github.com/ritterbush/turing-machines](https://github.com/ritterbush/turing-machines) for a primer on Turing machines.
 
 These programs follow the same form followed by my Turing machine implementations, linked above. Namely:
 
