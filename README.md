@@ -13,10 +13,10 @@ There are four commands:
 
 A Turing program has the following form:
 
-Cmd0 Cmd1 NextState0 NextState1\
-Cmd0 Cmd1 NextState0 NextState1\
-Cmd0 Cmd1 NextState0 NextState1\
-....
+    Cmd0 Cmd1 NextState0 NextState1\
+    Cmd0 Cmd1 NextState0 NextState1\
+    Cmd0 Cmd1 NextState0 NextState1\
+    ....
 
 Where\
 **Cmd0** stands for the command to run given that the cart is not at a symbol (is at a '0'),\
@@ -28,8 +28,8 @@ Which line to run is determined by the state number of the cart. Lines are finit
 
 A concrete example:
 
-L M 2 2\
-S R 0 0
+    L M 2 2\
+    S R 0 0
 
 Relatively simple, this Turing program tells the cart (in state 1, which references line 1) to erase the symbol below it and go left, if it is has no symbol below it (so just go left, since there's no symbol to erase), or else put a symbol below it and go left, if it is has a symbol below it (so just go left, since there's already a symbol below it), and go to the next state, which references line 2. At line 2, the cart is to put a symbol below it and go right, if it is has no symbol below it, or else erase the symbol below it and go right, if it is has a symbol below it, and go to the next state. Since the next state is 0, the cart will halt and finish executing the program.
 
