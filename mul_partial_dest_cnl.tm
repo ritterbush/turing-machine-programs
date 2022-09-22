@@ -1,5 +1,3 @@
-
-
 # C&L 3rd ed. version: this fn is partial in that it will not halt given arguments of value zero in any place
 # It is also destructive: it will insert zeros before result if any nums are before the arguments
 R R 2 2
