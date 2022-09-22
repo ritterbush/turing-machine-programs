@@ -1,5 +1,5 @@
-# C&L 3rd ed. version: this fn does not halt given zero arguments in any place
-# It is also not end-friendly: it will insert zeros before result if any nums are before arguments
+# C&L 3rd ed. version: this fn is partial in that it will not halt given arguments of value zero in any place
+# It is also not end-friendly: it will insert zeros before result if any nums are before the arguments
 R R 2 2
 R S 13 3
 R S 4 3
