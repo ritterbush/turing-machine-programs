@@ -37,9 +37,9 @@ Relatively simple, this Turing program tells the cart (in state 1, which referen
 
 # Busy Beavers
 
-Busy beavers are those Turing programs that are run on a track of no symbols (of all ***0***'s), and end with the greatest amount of symbols (of ***1***s) as possible, given some maximum number of lines (equivalently, given a maximum number of states a cart can be in given a program). This site keeps track of current winners of [known Busy Beavers](https://webusers.imj-prg.fr/~pascal.michel/bbc.html).
+Busy beavers are those Turing programs that are run on a track of no symbols (of all ***0***'s), and end with the greatest amount of symbols (of ***1***s) as possible, given some maximum number of lines (equivalently, given a maximum number of states a cart can be in given a program). Here is a site that keeps track of the current winners of [known Busy Beavers](https://webusers.imj-prg.fr/~pascal.michel/bbc.html).
 
-The goal for this repo would be to have "busy beaver" programs relative to the function the program is made to implement. That is, the most efficient add, subract, multiply, divide, get-element-i-from-list, ...etc. functions. Here, *most efficient* just means done in the fewest amount of lines.
+The goal for this repo would be to have "busy beaver" programs relative to the function the program is made to implement. That is, the most efficient add, subract, multiply, divide, get-element-i-from-list, ...etc. functions. Here, *most efficient* just means done in the fewest amount of states, or lines of the program.
 
 To explain how Turing machines can implement functions at all, consider a cart on a track with no ***1*** symbols before it, when considered as ordered from left to right. Number values for functions are understood to be unbroken strings of ***1***'s, if any, starting from the cart's position. Any breaks between ***1***'s signify new numbers.
 
