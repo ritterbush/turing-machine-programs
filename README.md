@@ -2,7 +2,7 @@
 
 ### See [https://github.com/ritterbush/turing-machines](https://github.com/ritterbush/turing-machines) for a primer on Turing machines.
 
-These programs follow the same form as my Turing machine implementations, linked above. In short: 
+In short: 
 
 There are four commands:
 
