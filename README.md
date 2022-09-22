@@ -1,8 +1,6 @@
 # Turing machine programs
 
-### See [https://github.com/ritterbush/turing-machines](https://github.com/ritterbush/turing-machines) for a primer on Turing machines.
-
-In short: 
+### See [https://github.com/ritterbush/turing-machines](https://github.com/ritterbush/turing-machines) for a primer on Turing machines. In short,
 
 There are four commands:
 
