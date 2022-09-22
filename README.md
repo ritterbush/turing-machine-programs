@@ -60,4 +60,10 @@ What about a `0` argument? For this, use strings of no-symbols (or ***0***'s) re
 
 The above has arguments `0, 2`, assuming a binary function, and the result of a multiplication Turing program will just be a blank track.
 
-There are a few more nuances to cover.
+Arguments of values greater than one are separated by a single ***0***. If we want to signify values of zero, simply insert additional ***0***'s between the chunks of consecutive ***1***'s, where each additional ***0*** represents an additional zero. For example, 
+
+...0001110011000...\
+..........^...................
+
+Signifies the values `3, 0, 2`, which would result in `0`, or a blank track, for a Turing Program that implements multiplication of all three values.
+
