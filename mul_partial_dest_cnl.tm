@@ -1,5 +1,5 @@
 # C&L 3rd ed. version: this fn is partial in that it will not halt given arguments of value zero in any place
-# It is also destructive: it will insert zero symbols into any num values that are before the arguments
+# It is also destructive: it will insert zero symbols into any num values that sit before the arguments
 R R 2 2
 R S 13 3
 R S 4 3
